@@ -7,6 +7,13 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Lobster Two', cursive;
 }
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 48px;
+}
 .bb-alert{
     margin-bottom: 0;
 }
@@ -19,18 +26,25 @@ body {
 
 /*------------------------- Navbar*/ 
 
-.bb-logo{
+.bb-logo{ 
     color: #fff;
     font-size:1.75rem;
 }
 
-.bb-nav-link{
+.bb-nav-link {
     color: #fff;
     font-size: 1.5rem;
 }
+
+.bb-nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .bb-btn-book {
 background-color: #998DA0;
 border-color: #63585E;
+
 }
 
 
@@ -50,15 +64,15 @@ border-color: #63585E;
   background-position: center;
   height: 850px;
   width: 100%;
-  background: url("../img/hammock.jpg")  no-repeat;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ), url("../img/hammock.jpg")  no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .bb-hero-text {
-    font-size: 50px;
-    font-weight: bold;
-    padding-left: 10px;
     text-align: center;
     color:#fff;
 }

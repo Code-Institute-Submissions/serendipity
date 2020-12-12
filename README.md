@@ -14,6 +14,9 @@ bootstrap
 W3Schools.com
 Code Institute lessons
 coolors
+Stack Overflow
+https://www.codegrepper.com/code-examples/css/tint+image+with+background+color+css
+https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=A%20standard%20navigation%20bar%20is,%3D%22navbar%2Dnav%22%20.
 
 
 
