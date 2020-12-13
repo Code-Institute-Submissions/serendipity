@@ -17,6 +17,11 @@ h2 {
 .bb-alert{
     margin-bottom: 0;
 }
+.center {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*------------------------- Header */ 
 
@@ -41,23 +46,32 @@ h2 {
     text-decoration: underline;
 }
 
-.bb-btn-book {
+.bb-btn {
 background-color: #998DA0;
 border-color: #63585E;
+font-size: 1.25rem;
 
 }
+/*------------------------- First page/Index*/ 
 
+.bb-h4-index {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
-.bb-btn-book:hover{
+.bb-btn:hover{
     background-color:#63585E;
 }
-.bb-btn-book:active{
+.bb-btn:active{
     background-color:#558b6e;
     transform: translateY(4px);
 }
 .bb-btn:focus {
     color:#63585E;
 }
+ 
+
 
 /*------------------------- Hero */ 
 .bb-hero-image {
@@ -76,15 +90,30 @@ border-color: #63585E;
     text-align: center;
     color:#fff;
 }
+.bb-anime {
+    position: relative;
+    animation-name: bb-anime;
+    animation-duration: 5s;
+    animation-delay: -2s;  
+    animation-timing-function: ease-out;
+}
     
+@keyframes bb-anime {
+  0%   {top:0px; bottom:0px;}
+  25%  {top:200px; bottom:0px;}
+  50%  {top:200px; bottom:200px;}
+  75%  {top:0px; bottom:200px;}
+  100% {top:0px;bottom:0px;}
+}
 /*------------------------- Footer */ 
 
-.bb-footer{
+.bb-footer {
     width: 100%;
     position: fixed;
     bottom: 0;
     background-color:#704c5e;
     color:#fff;
+    display:flex;
 }
 
 .bb-foot-list a{
