@@ -14,7 +14,7 @@
 <body>
     <header id="header"> 
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand bb-logo" href="index.html">Serendipity</a>
+            <a class="navbar-brand bb-logo" href="index.html">Serendipity <i class="fab fa-pagelines"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler-bb" aria-controls="navbarToggler-bb" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
@@ -39,24 +39,27 @@
     </header>
     <section>
         <div class="container">
-        <form>
+            <h2 class="mb-4 text-center">Booking <i class="fab fa-pagelines"></i></h2>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+        <form class="bb-form-wrapper">
             <div class="form-row">
                 <div class="col">
-                    <label for="fname">First Name</label>
-                  <input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
+                    <label for="fname"><h4>First Name</h4></label>
+                  <input type="text" class="form-control" mb-4 id="fname" name="fname" placeholder="First name" required>
                 </div>
                 <div class="col">
-                    <label for="lname">Last Name</label>
-                  <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name">
+                    <label for="lname"><h4>Last Name</h4></label>
+                  <input type="text" class="form-control" mb-4 id="lname" name="lname" placeholder="Last name" required>
                 </div>
               </div>
-            <div class="form-group">
-              <label for="bb-form-mail">Email address</label>
-              <input type="email" class="form-control" id="bb-form-mail" placeholder="name@example.com" required>
+            <div class="form-group mt-4">
+              <label for="bb-form-mail"><h4>Email address</h4></label>
+              <input type="email" class="form-control" mb-4 id="bb-form-mail" placeholder="name@example.com" required>
             </div>
             <div class="form-group">
-              <label for="bb-form-guests">Number of guests</label>
-              <select class="form-control" id="bb-form-guests">
+              <label for="bb-form-guests"><h4>Number of guests</h4></label>
+              <select class="form-control" mb-4 id="bb-form-guests">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -65,23 +68,21 @@
               </select>
             </div>
             <div>
-                <label for="start">Start date:</label>
-                <input type="date" id="start" name="trip-start"
-                value="2020-12-22"
-                min="2020-12-22" max="2022-12-31">
-                <label for="bb-end">End date:</label>
-                <input type="date" id="bb-end" name="trip-start"
-                value="2020-12-22"
-                min="2020-12-22" max="2022-12-31">
+                <label for="start"><h5>Start date:</h5></label>
+                <input type="date" id="start" name="trip-start" value="2020-12-22" min="2020-12-22" max="2022-12-31">
+                <label for="bb-end"><h5>End date:</h5></label>
+                <input type="date" id="bb-end" name="trip-start" value="2020-12-22" min="2020-12-22" max="2022-12-31"> 
             </div>
-            <div class="form-group">
-              <label for="bb-form-textarea">Additional Information</label>
+            <div class="form-group mt-4">
+              <label for="bb-form-textarea"><h4>Additional Information</h4></label>
               <textarea class="form-control" id="bb-form-textarea" rows="3" placeholder="What's the occasion, allergies, any special requests..."></textarea>
             </div>
             <div class="bb-form-btn">
-            <button class="btn bb-btn" type="submit">Submit form</button>
+            <button class="btn bb-btn" type="submit" a href="#">Submit form</button>
         </div>
           </form>
+        </div>
+    </div>
         </div>
     </div>
     </section>
