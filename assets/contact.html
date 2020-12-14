@@ -12,68 +12,67 @@
     <title>Bed & Breakfast</title>
 </head>
 <body>
-<header id="header"> 
-  <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand bb-logo" href="index.html">Serendipity</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link bb-nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bb-nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bb-nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-          <a class="btn bb-btn my-2 my-sm-0 ml-3" href="#" role="button">Book a room!</a>
+  <header id="header"> 
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand bb-logo" href="index.html">Serendipity</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler-bb" aria-controls="navbarToggler-bb" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler-bb">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link bb-nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bb-nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bb-nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+            <li class="nav-btn"><a class="btn bb-btn my-2 my-sm-0" href="#" role="button">Book a room!</a></li>
+        </div>
+      </nav>
+      <div class="alert alert-danger bb-alert" role="alert">
+        Check out our Christmas special!  <i class="fas fa-candy-cane"></i> <i class="fas fa-gifts"></i>
       </div>
-    </nav>
-    <div class="alert alert-danger bb-alert" role="alert">
-      Check out our Christmas special!  <i class="fas fa-candy-cane"></i> <i class="fas fa-gifts"></i>
-    </div>
-    </header>
+</header>
     <section class="bb-contact">
-      <h2>Contact us</h2>
-      <div class="container bb-container-contact">
-      <div class="row bb-row-contact">
-        <div class="col">
+      
+      <div class="container">
+        <h2 class="mb-4">Contact us</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
          <h4> <i class="fas fa-map-marker"></i> Location:</h4> 
          <p>vilken gata <br> zip code</p>
          
         </div>
-        <div class="col"><h4><i class="far fa-envelope"></i> Email:</h4>
+        <div class="col-md-4 text-center"><h4><i class="far fa-envelope"></i> Email:</h4>
           <p>Serendipity@fake.com <br>info@fake.com</p>
         </div>
-        <div class="col"><h4><i class="fas fa-phone"></i> Call:</h4>
+        <div class="col-md-4 text-center"><h4><i class="fas fa-phone"></i> Call:</h4>
           <p>+467 01234567 <br>+468 1234567</p>
 
         </div>
       </div>
+      <div class="bb-map">
+        <h3>Find us here!</h3>
+        <iframe id="bb-googlemap" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d65273.99413736094!2d18.4045659!3d59.2525767!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1607769162132!5m2!1sen!2sse" width="600" height="450" frameborder="0" style="border:2px solid #704c5e;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
     </div>
     </section>
-    <section class="bb-map">
-      <h3>Find us here!</h3>
-      <iframe id="bb-googlemap" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d65273.99413736094!2d18.4045659!3d59.2525767!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1607769162132!5m2!1sen!2sse" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </section>
-    <footer>
-        <div class="bb-footer">
-            <ul class="bb-foot-list mr-auto">
-                <li class="bb-foot-link"><i class="fab fa-facebook"></i><a href="https://www.facebook.com/" target="_blank"></a>Facebook</li></a>
-                <li class="bb-foot-link"><i class="fab fa-instagram"></i><a href="https://www.instagram.com/" target="_blank"></a>Instagram</li>
-                <li class="bb-foot-link"><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com" target="_blank"></a>LinkedIn</li>
-               </ul>
-               <ul class="bb-foot-list ml-auto">
-                <li class="bb-foot-link">EMail: Serendipity@fake.com</li>
-                <li class="bb-foot-link">Phone:+4670 1234567</li>
-                <li class="bb-foot-link">Adress: fake address</li>
-               </ul>
-        </div>
-    </footer>
+    <footer class="bb-footer text-center">
+      <div>
+       <a class="bb-footer-link" href="mailto:serendipity@fake.com" class="bb-footer-link">EMail: Serendipity@fake.com</li>
+       <a class="bb-footer-link" href="callto:+46701234567" class="bb-footer-link">Phone:+4670 1234567</li>
+       <a class="bb-footer-link" href="contact.html" class="bb-footer-link">Adress: fake address</li>
+       </div>
+      <div class="bb-footer-social">
+       <a class="bb-footer-social-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+       <a class="bb-footer-social-link" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+       <a class="bb-footer-social-link" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
