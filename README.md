@@ -14,6 +14,8 @@ https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=A%20standard%2
 https://blog.hubspot.com/website/css-fade-in
 https://codepen.io/themechills/pen/dMamgG
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+https://codepen.io/codeconvey/pen/xRzQay  -  snowflakes animation effect
+https://www.bootdey.com/snippets/view/Customer-Reviews
 
 
 
@@ -112,6 +114,7 @@ Photo by Rachel Claire from Pexels
 Photo by Izzy Hardy from Pexels
 Photo by Taryn Elliott from Pexels
 Photo by Karolina Grabowska from Pexels
+
 
 Acknowledgements:
 . My Mentor
