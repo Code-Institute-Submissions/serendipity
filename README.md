@@ -1,20 +1,14 @@
 
 
 
-Photo by cottonbro from Pexels
-Photo by Elly Fairytale from Pexels
-Photo by Bas Masseus from Pexels
-Photo by Daria Shevtsova from Pexels
-Photo by Ylanite Koppens from Pexels
-Photo by Evgenia Basyrova from Pexels
-Photo by Rachel Claire from Pexels
-Photo by Izzy Hardy from Pexels
+
 google fonts
 bootstrap
 W3Schools.com
 Code Institute lessons
 coolors
 Stack Overflow
+Balsamiq
 https://www.codegrepper.com/code-examples/css/tint+image+with+background+color+css
 https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=A%20standard%20navigation%20bar%20is,%3D%22navbar%2Dnav%22%20.
 https://blog.hubspot.com/website/css-fade-in
@@ -27,23 +21,37 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
 
 Your Project's Name
 
- It's a webpage for a fake Bed & Breakfast.
- The goal for "the owner" is to get guests by having a page where the potential guests feel like they're already on a relaxing break.
+ It's a webpage for a fake Bed & Breakfast called Serendipity.
 
+ It's the main source for the B&B to get established and receive more guests. It is designed to be responsible and accessible on a range of devices and make the potential guests feel like they're already on a mini break.
 
-(One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.)
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+First Time Visitor Goals;
+- It should be clear it's a page for a Bed & breakfast and make them want to know more.
+- 
+-
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+Returning Visitor goals;
+-                                                                                                                       xxxxx
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Put in the wireframe link here
 
-Features
+Design:
+Color scheme,
+- I picked calm colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white using coolors to find them.
+
+Typography:
+- I chose Lobster for a romantic feel and xxx in case the font isn't being imported into the site correctly.                 xxxxx
+
+Imagery:
+The large background hero images is allso picked for a relaxing feel. The gallery is supposed to make the potential guest feel lika they know what they're buying.
+
+Features:
+- Responsive on all devices
+- Interactive elements
+
+xxxxxxx
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
@@ -56,6 +64,7 @@ In addition, you may also use this section to discuss plans for additional featu
 Features Left to Implement
 Another feature idea
 Technologies Used
+                                                                                                                          xxxxx
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
@@ -92,6 +101,18 @@ Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+The photos used in this site were obtained from pexels.com and Unsplash.com
+Photo by cottonbro from Pexels
+Photo by Elly Fairytale from Pexels
+Photo by Bas Masseus from Pexels
+Photo by Daria Shevtsova from Pexels
+Photo by Ylanite Koppens from Pexels
+Photo by Evgenia Basyrova from Pexels
+Photo by Rachel Claire from Pexels
+Photo by Izzy Hardy from Pexels
+Photo by Taryn Elliott from Pexels
+Photo by Karolina Grabowska from Pexels
+
+Acknowledgements:
+. My Mentor
+. My Husband 
