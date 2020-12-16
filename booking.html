@@ -12,7 +12,7 @@
     <title>Bed & Breakfast</title>
 </head>
 <body>
-    <header id="header"> 
+    <header class="sticky-top" id="header"> 
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand bb-logo" href="index.html">Serendipity <i class="fab fa-pagelines"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler-bb" aria-controls="navbarToggler-bb" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +32,9 @@
                 <li class="nav-item">
                   <a class="nav-link bb-nav-link" href="rooms.html">Rooms</a>
                 </li>
-              </ul>
                 <li class="nav-btn"><a class="btn bb-btn my-2 my-sm-0" href="#" role="button">Book a room!</a></li>
+              </ul>
+                
             </div>
           </nav>
           <div class="alert alert-danger bb-alert" role="alert">
@@ -47,26 +48,26 @@
               <h3 class="mt-4 text-center">This Decemeber! <i class="fas fa-candy-cane"></i> <i class="fas fa-gifts"></i></h3>
           <h4 class="text-center">A ride with a horsecarriage to the Christmasmarket included</h4> <p class="text-center"> You can find homemade carvings, jams,sausages,clothes,christmas decorations,candles and much more. <br> The ride takes 20minutes. Mulled wine provided during the ride<br>Enjoy!</p>
         </div>
-            <div class="row mb-5">
+            <div class="row mb-5 bb-lobster">
                 <div class="col-md-6 offset-md-3">
         <form class="bb-form-wrapper" action="/confirmation.html">
             <div class="form-row">
                 <div class="col">
-                    <label for="fname"><h4>First Name</h4></label>
-                  <input type="text" class="form-control" mb-4 id="fname" name="fname" placeholder="First name" required>
+                    <label for="fname">First Name</label>
+                  <input type="text" class="form-control" id="fname" name="fname" placeholder="First name" required>
                 </div>
                 <div class="col">
-                    <label for="lname"><h4>Last Name</h4></label>
-                  <input type="text" class="form-control" mb-4 id="lname" name="lname" placeholder="Last name" required>
+                    <label for="lname">Last Name</label>
+                  <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name" required>
                 </div>
               </div>
             <div class="form-group mt-4">
-              <label for="bb-form-mail"><h4>Email address</h4></label>
-              <input type="email" class="form-control" mb-4 id="bb-form-mail" placeholder="name@example.com" required>
+              <label for="bb-form-mail">Email address</label>
+              <input type="email" class="form-control mb-4" id="bb-form-mail" placeholder="name@example.com" required>
             </div>
             <div class="form-group">
-              <label for="bb-form-guests"><h4>Number of guests</h4></label>
-              <select class="form-control" mb-4 id="bb-form-guests">
+              <label for="bb-form-guests">Number of guests</label>
+              <select class="form-control mb-4" id="bb-form-guests">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -75,15 +76,15 @@
               </select>
             </div>
             <div>
-                <label for="start"><h4>Start date:</h4></label>
-                <input type="date" id="start" name="trip-start" value="2020-12-22" min="2020-12-22" max="2022-12-31">
+                <label for="start">Start date:</label>
+                <input class="bb-datepicker" type="date" id="start" name="trip-start" value="2020-12-22" min="2020-12-22" max="2022-12-31">
               </div>
                 <div>
-                <label for="bb-end"><h4>End date: &nbsp;</h4></label>
-                <input type="date" id="bb-end" name="trip-start" value="2020-12-22" min="2020-12-22" max="2022-12-31"> 
+                <label for="bb-end">End date:&nbsp;</label>
+                <input class="bb-datepicker" type="date" id="bb-end" name="trip-start" value="2020-12-22" min="2020-12-22" max="2022-12-31"> 
             </div>
             <div class="form-group mt-4">
-              <label for="bb-form-textarea"><h4>Additional Information</h4></label>
+              <label for="bb-form-textarea">Additional Information</label>
               <textarea class="form-control" id="bb-form-textarea" rows="3" placeholder="What's the occasion, allergies, any special requests..."></textarea>
             </div>
             <div class="bb-form-btn">
@@ -94,8 +95,6 @@
     </div>
     
         </div>
-        
-    </div>
     <div class=" snowflakes ml-4" aria-hidden="true">
       <div class="snowflake"></div>
     </div>
@@ -123,14 +122,11 @@
   <div class="snowflake">
   ❄
   </div>
-</div>
-
-    
     </section>
     <footer class="bb-footer text-center">
-        <a class="bb-footer-link" href="mailto:serendipity@fake.com" class="bb-footer-link"><span class="bb-text-bold"> Email: </span>Serendipity@fake.com</li>
-        <a class="bb-footer-link" href="callto:+46701234567" class="bb-footer-link"> <span class="bb-text-bold"> Phone: </span>+4670 1234567</li>
-        <a class="bb-footer-link" href="contact.html" class="bb-footer-link"><span class="bb-text-bold">Adress: </span>fake address</li>
+        <a class="bb-footer-link" href="mailto:serendipity@fake.com"><span class="bb-text-bold"> Email: </span>Serendipity@fake.com</a>
+        <a class="bb-footer-link" href="callto:+46701234567"> <span class="bb-text-bold"> Phone: </span>+4670 1234567</a>
+          <a class="bb-footer-link" href="contact.html"><span class="bb-text-bold">Address: </span>101 Serene Street 101 11 Ingarö Sweden</a>
        
        <div class="bb-footer-social">
         <a class="bb-footer-social-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook bb-transform"></i></a>

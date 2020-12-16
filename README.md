@@ -1,21 +1,22 @@
 
 
 
-
+https://fontawesome.com/icons?d=gallery - Collected a number of icons from here
 google fonts
 bootstrap
-W3Schools.com
-Code Institute lessons
-coolors
-Stack Overflow
-Balsamiq
-https://www.codegrepper.com/code-examples/css/tint+image+with+background+color+css
-https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=A%20standard%20navigation%20bar%20is,%3D%22navbar%2Dnav%22%20.
-https://blog.hubspot.com/website/css-fade-in
-https://codepen.io/themechills/pen/dMamgG
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
-https://codepen.io/codeconvey/pen/xRzQay  -  snowflakes animation effect
-https://www.bootdey.com/snippets/view/Customer-Reviews
+W3Schools.com - general browsing for reminders and tips
+Code Institute lessons - general browsing for reminders and tips
+coolors - I took my colours from this site
+Stack Overflow - general browsing for reminders and tips
+Balsamiq - The Wireframing
+https://www.codegrepper.com/code-examples/css/tint+image+with+background+color+css - (helped me with the tint of the Hero Image)
+https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=A%20standard%20navigation%20bar%20is,%3D%22navbar%2Dnav%22%20. - (helped me out w the navbar, as well as the classes)
+https://blog.hubspot.com/website/css-fade-in - (Helped me with the fading on the main page)
+https://codepen.io/themechills/pen/dMamgG    xxx?
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date  - (Helped me with the datepicker on the booking page.)
+https://codepen.io/codeconvey/pen/xRzQay  -  (snowflakes animation on the booking page -total rip off for a fun x-mas effect)
+https://www.bootdey.com/snippets/view/Customer-Reviews - (Helped me with the Customer Review page)
+https://stackoverflow.com/questions/4626431/highlight-the-navigation-menu-for-the-current-page - work in progress xxxx
 
 
 
@@ -24,14 +25,15 @@ https://www.bootdey.com/snippets/view/Customer-Reviews
 Your Project's Name
 
  It's a webpage for a fake Bed & Breakfast called Serendipity.
+ Maybe it could work as a template for existing B&B's.
 
  It's the main source for the B&B to get established and receive more guests. It is designed to be responsible and accessible on a range of devices and make the potential guests feel like they're already on a mini break.
-
+ 
 
 UX
 First Time Visitor Goals;
 - It should be clear it's a page for a Bed & breakfast and make them want to know more.
-- 
+- it's easy to move around the pages
 -
 
 Returning Visitor goals;
@@ -41,20 +43,28 @@ Put in the wireframe link here
 
 Design:
 Color scheme,
-- I picked calm colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white using coolors to find them.
+- I picked calm colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white. Fpund the colours on Coolors.
 
 Typography:
-- I chose Lobster for a romantic feel and xxx in case the font isn't being imported into the site correctly.                 xxxxx
+- I chose Lobster for a romantic feel and Lato for the samller text because the Lobster became difficult to read in smaller text. In case the font isn't being imported into the site correctly I use  xx as a back up     xxxxxx            
 
 Imagery:
-The large background hero images is allso picked for a relaxing feel. The gallery is supposed to make the potential guest feel lika they know what they're buying.
+The large background hero images is picked for a relaxing feel. The gallery is supposed to make the potential guest feel like they know what they're buying.
 
 Features:
 - Responsive on all devices
 - Interactive elements
 
 xxxxxxx
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+- The Navbar 
+- Main page
+- About
+- Gallery
+- Rooms
+- Booking , Christmas special
+- Reviews
 
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -63,7 +73,12 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-Features Left to Implement
+Features Left to Implement:
+
+The map on the Contact page is not working, it's atm more of a placeholder map.
+The information input in the form doesn't actually go anywhere as of yet when you submit. 
+
+
 Another feature idea
 Technologies Used
                                                                                                                           xxxxx
@@ -71,7 +86,13 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
+
 Testing
+ Validator.w3.org
+ Jigsaw.w3.org
+ contrast checker, webaim.org - passed all tests 
+ Manually testing the links  xxxxx  different browsers
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -102,8 +123,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
+
 Media
-The photos used in this site were obtained from pexels.com and Unsplash.com
+The photos used in this site were obtained from pexels.com and Unsplash.com.
+Here's a shout out to the photographers that made my work come to live;
+
 Photo by cottonbro from Pexels
 Photo by Elly Fairytale from Pexels
 Photo by Bas Masseus from Pexels
@@ -117,5 +141,7 @@ Photo by Karolina Grabowska from Pexels
 
 
 Acknowledgements:
-. My Mentor
-. My Husband 
+. My Mentor, she's  been a lighthouse in the mist of code
+. My Husband whose support in both irl and programming world I couldn't be without.
+. Tutor support for quick and friendly help
+. Fellow students on slack w their positive energy
