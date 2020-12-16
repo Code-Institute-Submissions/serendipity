@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/4626431/highlight-the-navigation-menu-for-th
 
 
 
-Your Project's Name
+ MSP1-NBN    (Serendipity Bed & Breakfast)
 
  It's a webpage for a fake Bed & Breakfast called Serendipity.
  Maybe it could work as a template for existing B&B's.
@@ -32,27 +32,28 @@ Your Project's Name
 
 UX
 First Time Visitor Goals;
-- It should be clear it's a page for a Bed & breakfast and make them want to know more.
-- it's easy to move around the pages
--
+- It's clear it's a page for a Bed & breakfast and it should make them want to know more.
+- Entering the site, users are greeted with a Hero image and a message. There's also a clean navbar and a couple of       buttons that leads to relevant information.
+- It's easy to navigate throughout the site
+- The navbar is sticky, the user never lose their way.
 
 Returning Visitor goals;
--                                                                                                                       xxxxx
+-Returning  visitor can quickly see if there is a special offer on and get hold of the contact information straight away since you can find it on every page and also a contact link in the navbar.    
 
-Put in the wireframe link here
+Wireframe <a href="assets/pdf/wireframe-serendipity.pdf">View</a> 
 
 Design:
 Color scheme,
-- I picked calm colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white. Fpund the colours on Coolors.
+- I picked calm colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white. Found the colours on Coolors.
 
 Typography:
-- I chose Lobster for a romantic feel and Lato for the samller text because the Lobster became difficult to read in smaller text. In case the font isn't being imported into the site correctly I use  xx as a back up     xxxxxx            
+- I chose Lobster for a romantic feel and Lato for the samller text because the Lobster became difficult to read in smaller text. In case the font isn't being imported into the site correctly I use Sans-serif as a back-up font.         
 
 Imagery:
 The large background hero images is picked for a relaxing feel. The gallery is supposed to make the potential guest feel like they know what they're buying.
 
 Features:
-- Responsive on all devices
+- Responsive on all device sizes
 - Interactive elements
 
 xxxxxxx
@@ -81,34 +82,53 @@ The information input in the form doesn't actually go anywhere as of yet when yo
 
 Another feature idea
 Technologies Used
-                                                                                                                          xxxxx
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+                                                                                                                          Languages used:
+ - Html 5
+ - CSS3
+                
+Frameworks, Libraries & Programs used:
+- bootstrap, Bootstrapwas used to help with the responsiveness and styling of the website.
+- Google Fonts, Google fonts were used to import Lobster and Lato which is the font I used on all the pages.
+- Font Awesome. was used on all the pagesto add icons for aesthetic and UX purposes.
+- JQuery, to be able to use Bootstrap for responsiveness.
+- Git
+- Github
+- Balsamiq, was used to create a wireframe for the project.
+
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
 
-Testing
- Validator.w3.org
- Jigsaw.w3.org
- contrast checker, webaim.org - passed all tests 
+Testing:
+ - Validator.w3.org
+ - Jigsaw.w3.org
+ - contrast checker, webaim.org - passed all tests 
  Manually testing the links  xxxxx  different browsers
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 Contact form:
-Go to the "Contact Us" page
+Go to the "Contact" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Navbar:
+Try click on all the links, verify the links are highlighted when you hover on them and that you land on the intended page
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Footer:
+All three links have a hover effect and when clicked you end up at the appropriate place.
+
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes. xxx
+
+Buttons:
+All buttons have a hover effect and different color when clicked.
+
+
+Known bugs:
+- The Contact page, map location icon not available.
+
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -126,7 +146,7 @@ The text for section Y was copied from the Wikipedia article Z
 
 Media
 The photos used in this site were obtained from pexels.com and Unsplash.com.
-Here's a shout out to the photographers that made my work come to live;
+Here's a shout out to some of the photographers that made my work come to live;
 
 Photo by cottonbro from Pexels
 Photo by Elly Fairytale from Pexels
@@ -142,6 +162,6 @@ Photo by Karolina Grabowska from Pexels
 
 Acknowledgements:
 . My Mentor, she's  been a lighthouse in the mist of code
-. My Husband whose support in both irl and programming world I couldn't be without.
+. My Husband whose support both irl and programming world I couldn't be without.
 . Tutor support for quick and friendly help
 . Fellow students on slack w their positive energy
