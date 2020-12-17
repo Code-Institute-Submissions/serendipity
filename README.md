@@ -3,6 +3,7 @@ This Bed & Breakfast is make believe. Any mentioned adresses, email addesses or 
 
 ### View the live project here: [Serendipity](https://carrozw.github.io/serendipity/)
 
+[logo]: https://carrozw.github.io/serendipity/assets/img/mockup-devices.png "Devices"
 
  # Serendipity Bed & Breakfast
 
