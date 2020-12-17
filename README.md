@@ -1,8 +1,5 @@
 ### Disclaimer:
-This Bed & Breakfast is make believe. Any mentioned adresses, email addesses or phone numbers are made up for a nicer experience. Serendipity doesn't have any social accounts either, therefore I've linked to the startpages of facebook, LinkedIn and Instagram.
-
-
-
+This Bed & Breakfast is make believe. Any mentioned adresses, email addesses or phone numbers are made up for a nicer experience. Serendipity doesn't have any social accounts either, therefore I've linked to the startpages of Facebook, LinkedIn and Instagram.
 
 ### View the live project here: [Serendipity](https://carrozw.github.io/serendipity/)
 
@@ -10,8 +7,7 @@ This Bed & Breakfast is make believe. Any mentioned adresses, email addesses or 
  # Serendipity Bed & Breakfast
 
  ## This is a webpage for a Bed & Breakfast called Serendipity.
-
-  - Designes to give a professional impression and relaxing feel for a bed & Breakfast, - goal: receive more guests.
+  - Designed to give a professional impression and relaxing feel for a Bed & Breakfast. Goal: receive more guests.
   - Designed as a guide for Bed and Breakfast owners to use as a template.
 
 ## Why this project?
@@ -22,14 +18,13 @@ This Bed & Breakfast is make believe. Any mentioned adresses, email addesses or 
 
 ## First Time Visitor Goals;
 
-1. As a  first time visitor, I want to straight away see that it is a site for a Bed & Breakfast.
+1. As a first time visitor, I want to straight away see that it is a site for a Bed & Breakfast.
 2. As a first time visitor, I want to easily navigate throughout the site for relevant information. 
-3. As a first time visitor I want all the buttons and links to take me to the appropriate section.
-4. As a first time visitor I want the images to load quickly for convenience.
+3. As a first time visitor, I want all the buttons and links to take me to the appropriate section.
+4. As a first time visitor, I want the images to load quickly for convenience.
 
 # Returning/Frequent Visitor goals;
-
-- As a returning visitor I want to quickly see if there is any special offers on that I just can't miss out on.
+- As a returning visitor I want to quickly see if there is any special offers on that I shouldn't miss.
 - As a returning visitor I can easily find the contact information.
     
 Wireframe [View](https://carrozw.github.io/serendipity/assets/pdf/wireframe-serendipity.pdf) 
@@ -39,7 +34,7 @@ Wireframe [View](https://carrozw.github.io/serendipity/assets/pdf/wireframe-sere
 
 ### Wireframe
 
-- My Wireframe was inspired by: [Wirefram inspiration](https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ )
+- My Wireframe was inspired by: [Bootstrap theme - Delicious Free](https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ )
 
 ### Color scheme,
 
@@ -59,18 +54,16 @@ The large background hero image is picked for a relaxing feel, like the user is 
 
 
 # Quick overview of the project
-
-. Wireframe - kicked off the project 
-. Main page -First impression last
-. About - General overview of Serendipity, the Bed & Breakfast
-. Gallery - Photos to let the viewer daydream of how amazing a visit would be.
-. Rooms - Same as above
-. Booking - Easy on the eye booking
-. Reviews - Always good to hear other opinions about whatever you're buying.
+- Wireframe - Kicked off the project 
+- Main page - First impression last
+- About - General overview of Serendipity, the Bed & Breakfast
+- Gallery - Photos to let the viewer daydream of how amazing a visit would be.
+- Rooms - Same as above
+- Booking - Easy on the eye booking
+- Reviews - Always good to hear other opinions about whatever you're buying.
 
 
 # Features Left to Implement for a better user experience:
-
  - Active class on navbar items
  - Adding a marker on the map
  - Better alignment on images in Gallery
@@ -82,12 +75,10 @@ The large background hero image is picked for a relaxing feel, like the user is 
 # Technologies Used
 
 ## Languages:
-
  - Html 5
  - CSS3
                 
 ## Frameworks, Libraries & Programs:
-
 - Bootstrap - Used to help with the responsiveness and styling of the website.
 - Google fonts - Used to import Lobster and Lato which is the font I used on all the pages.
 - Font Awesome - Used on all the pages to add icons for aesthetic and UX purposes.
@@ -100,11 +91,9 @@ The large background hero image is picked for a relaxing feel, like the user is 
 
 
 # Testing:
-
- - https://validator.w3.org/nu/#textarea
- - https://jigsaw.w3.org/css-validator/#validate_by_input 
- - https://webaim.org/resources/contrastchecker/  
-  . Passed above tests
+ - https://validator.w3.org/nu/#textarea - passed tests
+ - https://jigsaw.w3.org/css-validator/#validate_by_input - passed tests
+ - https://webaim.org/resources/contrastchecker/ - passed tests
 
  ## Manually testing the site in following browsers:
 - Chrome (desktop/android)
@@ -115,11 +104,10 @@ The large background hero image is picked for a relaxing feel, like the user is 
 Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 
 ### Contact form:
-
-Go to the "Contact" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+- Go to the "Contact" page
+- Try to submit the empty form and verify that an error message about the required fields appears
+- Try to submit the form with an invalid email address and verify that a relevant error message appears
+- Try to submit the form with all inputs valid and verify that a success message appears.
 
 ### Navbar:
 
@@ -130,6 +118,7 @@ Try click on all the links, verify the links are highlighted when you hover on t
 All links have a hover effect and when clicked you end up at the appropriate place.
 
 ### Buttons:
+
 All buttons have a hover effect and different color when clicked on. Its apparent where it's supposed to go and leads to appropriate page.
 
 
@@ -161,33 +150,29 @@ The project was deployed to GitHub Pages using the following steps...
 
 
 # Content
-
 - All content was written by the developer
 - Images from pexels.com and unsplash.com
 
 
 # Media
-
 - The photos used in this site were obtained from pexels.com and Unsplash.com.
 
 ### Here's a shout out to some of the photographers that made my work come to live;
-
-. Photo by cottonbro from Pexels
-. Photo by Elly Fairytale from Pexels
-. Photo by Bas Masseus from Pexels
-. Photo by Daria Shevtsova from Pexels
-. Photo by Ylanite Koppens from Pexels
-. Photo by Evgenia Basyrova from Pexels
-. Photo by Rachel Claire from Pexels
-. Photo by Izzy Hardy from Pexels
-. Photo by Taryn Elliott from Pexels
-. Photo by Karolina Grabowska from Pexels
-. Photo by Jared Rice from Unsplash
+- Photo by cottonbro from Pexels
+- Photo by Elly Fairytale from Pexels
+- Photo by Bas Masseus from Pexels
+- Photo by Daria Shevtsova from Pexels
+- Photo by Ylanite Koppens from Pexels
+- Photo by Evgenia Basyrova from Pexels
+- Photo by Rachel Claire from Pexels
+- Photo by Izzy Hardy from Pexels
+- Photo by Taryn Elliott from Pexels
+- Photo by Karolina Grabowska from Pexels
+- Photo by Jared Rice from Unsplash
 
 
 # Acknowledgements:
-
-. My Mentor, she's been a lighthouse in the mist of code
-. My Husband whose support both irl and programming world I couldn't be without.
-. Tutor support for quick and friendly help
-. Fellow students on slack with their positive energy
+- My Mentor, she's been a lighthouse in the mist of code
+- My Husband whose support both irl and programming world I couldn't be without.
+- Tutor support for quick and friendly help
+- Fellow students on slack with their positive energy
