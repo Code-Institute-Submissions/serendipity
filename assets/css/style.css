@@ -398,15 +398,15 @@ margin-top: 15px;
 
 /*------------------------- Animation  (https://blog.hubspot.com/website/css-fade-in) */ 
 
-.fadeIn {
-    animation: fadeIn ease 2.25s;
-    -webkit-animation: fadeIn ease 2.25s;
-    -moz-animation: fadeIn ease 2.25s;
-    -o-animation: fadeIn ease 2.25s;
-    -ms-animation: fadeIn ease 2.25s;
+.fadeIn-hero {
+    animation: fadeIn-hero ease 2.25s;
+    -webkit-animation: fadeIn-hero ease 2.25s;
+    -moz-animation: fadeIn-hero ease 2.25s;
+    -o-animation: fadeIn-hero ease 2.25s;
+    -ms-animation: fadeIn-hero ease 2.25s;
     }
     
-    @keyframes fadeIn {
+    @keyframes fadeIn-hero {
         from {
             transform: translate3d(0,40px,0)
         }
@@ -414,25 +414,52 @@ margin-top: 15px;
     100% {opacity:1;}
     }
     
-    @-moz-keyframes fadeIn {
+    @-moz-keyframes fadeIn-hero {
     0% {opacity:0;}
     100% {opacity:1;}
     }
     
-    @-webkit-keyframes fadeIn {
+    @-webkit-keyframes fadeIn-hero {
     0% {opacity:0;}
     100% {opacity:1;}
     }
     
-    @-o-keyframes fadeIn {
+    @-o-keyframes fadeIn-hero {
     0% {opacity:0;}
     100% {opacity:1;}
     }
     
-    @-ms-keyframes fadeIn {
+    @-ms-keyframes fadeIn-hero {
     0% {opacity:0;}
     100% {opacity:1;}
     }
+    .fadeIn {
+        animation: fadeIn ease 1.75s;
+        -webkit-animation: fadeIn ease 1.75s;
+        -moz-animation: fadeIn ease 1.75s;
+        -o-animation: fadeIn ease 1.75s;
+        -ms-animation: fadeIn ease 1.75s;
+        }
+        
+        @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
 
     
       /* customizable snowflake styling, total rip off from https://codepen.io/codeconvey/pen/xRzQay */

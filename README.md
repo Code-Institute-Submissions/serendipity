@@ -17,6 +17,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date  - (Helped 
 https://codepen.io/codeconvey/pen/xRzQay  -  (snowflakes animation on the booking page -total rip off for a fun x-mas effect)
 https://www.bootdey.com/snippets/view/Customer-Reviews - (Helped me with the Customer Review page)
 https://stackoverflow.com/questions/4626431/highlight-the-navigation-menu-for-the-current-page - work in progress xxxx
+tinypng.com - optimizing and compressing images for a faster page load.
 
 
 
@@ -37,6 +38,14 @@ First Time Visitor Goals;
 - It's easy to navigate throughout the site
 - The navbar is sticky, the user never lose their way.
 
+xx - as a user, I want the ability to click on the navigatiobar, so that I can have access to the sections of the website such as # About, Gallery...
+
+- As a user I want to see imageas load quickly so I can see what
+
+as  a user when I scroll down the page I want the navbar to stick so that I can 
+
+ as a user I want the navbar to highlight the page that I'm on
+ fg
 Returning Visitor goals;
 -Returning  visitor can quickly see if there is a special offer on and get hold of the contact information straight away since you can find it on every page and also a contact link in the navbar.    
 
@@ -87,9 +96,9 @@ Technologies Used
  - CSS3
                 
 Frameworks, Libraries & Programs used:
-- bootstrap, Bootstrapwas used to help with the responsiveness and styling of the website.
+- bootstrap, Bootstrap was used to help with the responsiveness and styling of the website.
 - Google Fonts, Google fonts were used to import Lobster and Lato which is the font I used on all the pages.
-- Font Awesome. was used on all the pagesto add icons for aesthetic and UX purposes.
+- Font Awesome. was used on all the pages to add icons for aesthetic and UX purposes.
 - JQuery, to be able to use Bootstrap for responsiveness.
 - Git
 - Github
