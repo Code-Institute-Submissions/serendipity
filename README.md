@@ -17,14 +17,14 @@ This Bed & Breakfast is make believe. Any mentioned adresses, email addesses or 
 
  # UX
 
-## First Time Visitor Goals;
+## First Time Visitor Goals:
 
 1. As a first time visitor, I want to straight away see that it is a site for a Bed & Breakfast.
 2. As a first time visitor, I want to easily navigate throughout the site for relevant information. 
 3. As a first time visitor, I want all the buttons and links to take me to the appropriate section.
 4. As a first time visitor, I want the images to load quickly for convenience.
 
-# Returning/Frequent Visitor goals;
+# Returning/Frequent Visitor goals:
 - As a returning visitor I want to quickly see if there is any special offers on that I shouldn't miss.
 - As a returning visitor I can easily find the contact information.
     
@@ -39,7 +39,7 @@ Wireframe [View](https://carrozw.github.io/serendipity/assets/pdf/wireframe-sere
 
 ### Color scheme,
 
-- I picked soft colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white. Found the colours on Coolors.
+- I picked soft colors to make the site feel warm, relaxing and welcoming. Mainly a shade of purple, pink and creamy white. Coolors inspired me.
 
 ### Typography:
 
@@ -93,7 +93,7 @@ The large background hero image is picked for a relaxing feel, like the user is 
 
 # Testing:
  - https://validator.w3.org/nu/#textarea - passed tests
- - https://jigsaw.w3.org/css-validator/#validate_by_input - passed tests
+ - https://jigsaw.w3.org/css-validator/#validate_by_input - passed tests (giving warnings on webkit prefixes)
  - https://webaim.org/resources/contrastchecker/ - passed tests
 
  ## Manually testing the site in following browsers:
@@ -148,6 +148,7 @@ The project was deployed to GitHub Pages using the following steps...
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date - Datepicker in form 
 - https://www.bootdey.com/snippets/view/Customer-Reviews - Customer Reviews
 - https://codepen.io/codeconvey/pen/xRzQay  - Snowflakes on booking site
+- https://www.google.com/maps/@59.2394045,18.259329,14z - Map snippet
 
 
 # Content
@@ -173,7 +174,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 
 # Acknowledgements:
-- My Mentor, she's been a lighthouse in the mist of code
+- My Mentor, Anna Villanueva, she's been a lighthouse in the mist of code
 - My Husband whose support both irl and programming world I couldn't be without.
 - Tutor support for quick and friendly help
 - Fellow students on slack with their positive energy
